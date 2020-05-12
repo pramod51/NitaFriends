@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/edit_details"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@drawable/stylenew"> </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etname"
+                    android:hint="@string/name_if_required"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/dark_orange"
+                    android:textColorHint="@color/black"> </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/college_if_required"
+                    android:id="@+id/etcollege"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/dark_orange"
+                    android:textColorHint="@color/black"> </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/dark_orange"
+                    android:hint="@string/year_if_required"
+                    android:focusable="false"
+                    android:id="@+id/etyear"
+                    android:inputType="textCapWords"
+                    android:imeOptions="actionSend"
+                    android:editable="false"
+                    android:drawableEnd="@drawable/ic_drop_down"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp"> </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:hint="@string/phone_no_if_required"
+                    android:textColor="@color/black"
+                    android:id="@+id/etphone"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/dark_orange"
+                    android:textColorHint="@color/black"> </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apply"
+        android:text="@string/apply"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"> </Button>
+
+
+
+</LinearLayout>

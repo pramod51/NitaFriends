@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+
+        <item>@font/abel</item>
+        <item>@font/abhaya_libre</item>
+        <item>@font/actor</item>
+        <item>@font/advent_pro_thin</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/alex_brush</item>
+        <item>@font/almendra</item>
+        <item>@font/almendra1</item>
+        <item>@font/amaranth</item>
+        <item>@font/archivo_black</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/average_sans</item>
+        <item>@font/belgrano</item>
+        <item>@font/bonbon</item>
+        <item>@font/cantora_one</item>
+        <item>@font/coustard</item>
+        <item>@font/diplomata</item>
+        <item>@font/emblema_one</item>
+        <item>@font/happy_monkey</item>
+    </array>
+</resources>

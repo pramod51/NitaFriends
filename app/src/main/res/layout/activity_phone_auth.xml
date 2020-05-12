@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneAuth">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign IN "
+            android:fontFamily="@font/cantora_one"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"> </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cantora_one"
+            android:gravity="center"
+            android:text="With Phone Number"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:textStyle="bold"> </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:text="We will send a SMS to Verify"
+            > </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:layout_gravity="center_horizontal"
+            android:text="your Mobile Number"
+            > </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  +91 "
+                android:backgroundTint="@color/orange_red"
+                android:editable="false"
+                android:clickable="false"
+                android:focusable="false"
+                android:textSize="22sp"
+                android:inputType="none"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:drawableStart="@drawable/flag"> </EditText>
+            <EditText
+                android:id="@+id/mobile_no"
+                android:layout_width="match_parent"
+                android:inputType="phone"
+                android:textSize="22sp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/orange_red"
+                android:textColor="@color/black"
+                android:hint="Enter Mobile number"
+                android:layout_marginEnd="30dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"> </EditText>
+        </LinearLayout>
+        <Button
+            android:id="@+id/continue_button"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="CONTINUE"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/contineue_button"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"> </Button>
+    </LinearLayout>
+
+
+</RelativeLayout>

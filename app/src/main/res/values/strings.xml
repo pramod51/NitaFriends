@@ -1,0 +1,194 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NITA FRIENDS</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >6 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-4725607852978925/1629282147</string>
+
+
+    <string name="sign_out">Sign Out</string>
+    <string name="developers">Developers Info</string>
+    <string name="menu_chats">Chats</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_sign_out">Sign Out</string>
+
+
+    <string name="student_info">Student Details</string>
+    <string name="dashboard">Dashboard</string>
+
+    <string name="name">Name </string>
+    <string name="Enroll">Enrollment No.</string>
+    <string name="college">College</string>
+    <string name="branch">Branch</string>
+    <string name="Year">Year</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="get_students">Get Students</string>
+    <string name="student_partner">Student Partner</string>
+    <string name="profile">Profile</string>
+    <string name="study_material">Study Material</string>
+    <string name="plesae_fill_branch">Plesae fill branch</string>
+    <string name="branch_field_empty">Branch field empty</string>
+    <string name="college_field_empty">College field empty</string>
+    <string name="year_field_empty">Year field empty</string>
+    <string name="phone_no_not_found">Phone No not found</string>
+    <string name="email_not_found">Email not found</string>
+    <string name="_0">0</string>
+    <string name="set_your_profile_here">Set your profile here</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="year">Year</string>
+    <string name="edit_details">Edit Details</string>
+    <string name="apply">Apply</string>
+    <string name="sign_in_with_email">Sign In With Email</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account??</string>
+    <string name="sign_up_with_email">Sign Up With Email</string>
+    <string name="name_if_required">Name (if required)</string>
+    <string name="college_if_required">College (if required)</string>
+    <string name="year_if_required">Year (if required)</string>
+    <string name="phone_no_if_required">Phone No. (if required)</string>
+    <string name="state_friends">State Friends</string>
+    <string name="nita_friend">NITA FRIENDS</string>
+    <string name="enroll_optional">Enroll (Optional..)</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title" />
+    <string name="Ok" />
+    <string name="Cancel" />
+    <string name="don_t_recive_the_otp_code">Don\'t Recive the OTP code?</string>
+
+
+    <string-array name="Year">
+        <item>1st YEAR</item>
+        <item>2nd YEAR</item>
+        <item>3rd YEAR</item>
+        <item>4th YEAR</item>
+    </string-array>
+
+
+    <style name="TextView.InputLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?android:textColorHint</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string-array name="Departments">
+        <item>Computer Science Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Information Technology</item>
+        <item>Chemical Engineering</item>
+        <item>Biotechnology Engineering</item>
+        <item>Production</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="namePrivacy">Privacy Policy</string>
+    <string name="t1">Pramod Chaurasiya built the NITA FRIENDS app as a Free app. This SERVICE is provided by Pramod Chaurasiya at no cost and is intended for use as is.
+
+This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+
+If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at NITA FRIENDS unless otherwise defined in this Privacy Policy.</string>
+    <string name="t2">Information Collection and Use</string>
+    <string name="t3">For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to Pramod Chaurasiya , B.Tech ,2nd Year Student , NIT AGARTALA. The information that I request will be retained on your device and is not collected by me in any way.
+
+The app does use third party services that may collect information used to identify you.
+
+Link to privacy policy of third party service providers used by the app</string>
+    <string name="t4">Google Play Services</string>
+    <string name="t5">AdMob</string>
+    <string name="t6">Log Data</string>
+    <string name="t7">I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.</string>
+    <string name="t8">Cookies</string>
+    <string name="t9">Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory. This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</string>
+    <string name="t10">Service Providers</string>
+    <string name="t11">I may employ third-party companies and individuals due to the following reasons:
+
+To facilitate our Service;
+To provide the Service on our behalf;
+To perform Service-related services; or
+To assist us in analyzing how our Service is used.
+I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</string>
+    <string name="t12">Security</string>
+    <string name="t13">I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</string>
+    <string name="t14">Links to Other Sites</string>
+    <string name="t15">This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</string>
+    <string name="t16">Changes to This Privacy Policy</string>
+    <string name="t17">I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+
+This policy is effective as of 2020-05-02</string>
+    <string name="t18">Contact Us</string>
+    <string name="t19">If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at pramodchaurasia51@gmail.com.
+
+This privacy policy page was created at privacypolicytemplate.net and modified/generated by App Privacy Policy Generator</string>
+    <string name="t20">Google Play Services</string>
+    <string name="delete_account">Delete Account</string>
+
+
+</resources>

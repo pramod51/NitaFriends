@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="50dp"
+        android:layout_width="158dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_topa"> </ImageView>
+    <ImageView
+        android:id="@+id/people"
+        android:layout_width="222dp"
+        android:layout_gravity="center"
+        android:layout_height="196dp"
+        android:src="@drawable/ic_people"> </ImageView>
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_flight"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="338dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/almendra"
+            android:gravity="center"
+            android:letterSpacing=".5"
+            android:paddingTop="20dp"
+            android:text="NITA"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold"> </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/almendra"
+            android:gravity="center"
+            android:letterSpacing=".5"
+            android:paddingBottom="20dp"
+            android:text="FRIENDS"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold"> </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

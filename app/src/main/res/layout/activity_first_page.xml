@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_img">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textColor="@color/dark_magenta"
+            android:fontFamily="@font/coustard"
+            android:textSize="65sp"
+            android:textStyle="bold"> </TextView>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIT"
+            android:textColor="@color/dark_magenta"
+            android:fontFamily="@font/coustard"
+            android:textSize="70dp"
+            android:textStyle="bold"> </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/coustard"
+            android:text="AGARTALA"
+            android:textColor="@color/dark_magenta"
+            android:textSize="60sp"
+            android:textStyle="bold"> </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/coustard"
+            android:text="STUDENTS"
+            android:textColor="@color/dark_magenta"
+            android:textSize="60sp"
+            android:textStyle="bold"> </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/button_phone"
+                android:drawableStart="@drawable/ic_phone"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/next_button"
+                android:layout_height="wrap_content"
+                android:text="Log In With Phone Number"> </Button>
+            <Button
+                android:id="@+id/button_email"
+                android:drawableStart="@drawable/ic_email"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/next_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:text="Sign Up With Email"> </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

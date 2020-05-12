@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudyMaterial">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="0dp"
+                android:layout_weight=".3"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:background="@drawable/ic_add"
+                android:layout_height="match_parent"> </Button>
+            <TextView
+                android:id="@+id/semester"
+                android:layout_width="0dp"
+                android:layout_weight="1.4"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="Others"> </TextView>
+            <Button
+                android:id="@+id/editSemester"
+                android:layout_width="0dp"
+                android:layout_weight=".3"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:background="@drawable/ic_edit"
+                android:layout_height="match_parent"> </Button>
+
+        </LinearLayout>
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:id="@+id/framLayout"
+            android:layout_height="wrap_content">
+            <ProgressBar android:id="@+id/progress_bar_sem"
+                android:layout_width="fill_parent"
+                style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+                android:indeterminateOnly="true"
+                android:layout_marginTop="-10dp"
+                android:layout_height="25dp"
+                android:layout_gravity="top"/>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:background="@color/light_black"
+            android:id="@+id/recyclerview"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

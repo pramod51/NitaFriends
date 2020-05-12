@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:orderInCategory="90"
+        android:id="@+id/share"
+        android:title="@string/menu_share"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="90"
+        android:id="@+id/developer"
+        android:title="@string/developers"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="90"
+        android:id="@+id/privacy"
+        android:title="@string/namePrivacy"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="90"
+        android:id="@+id/signout"
+        android:title="@string/sign_out"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="90"
+        android:id="@+id/delete_acc"
+        android:title="@string/delete_account"
+        app:showAsAction="never" />
+
+
+</menu>

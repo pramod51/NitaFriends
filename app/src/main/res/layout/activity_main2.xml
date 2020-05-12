@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:id="@+id/framLayout"
+            android:layout_height="wrap_content">
+            <ProgressBar android:id="@+id/progress_bar"
+                android:layout_width="fill_parent"
+                android:progress="5"
+                android:background="@android:color/transparent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_marginTop="-10dp"
+                android:layout_height="25dp"
+                android:layout_gravity="top"/>
+        </FrameLayout>
+
+        <WebView
+            android:id="@+id/webviwe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </WebView>
+    </LinearLayout>
+
+</RelativeLayout>
